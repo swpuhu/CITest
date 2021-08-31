@@ -1,0 +1,17 @@
+{
+  "name": "CITest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:swpuhu/CITest.git",
+  "author": "huyunhe <huyunhe@huohua.cn>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test/**/**.test.ts",
+    "cover": "nyc --reporter=html yarn run test"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1",
+    "nyc": "^15.1.0"
+  }
+}

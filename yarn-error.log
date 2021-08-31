@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/hyhll/Library/Android/sdk/tools:/Users/hyhll/Library/Android/sdk/platform-tools:/Users/hyhll/Library/Android/sdk:/usr/local/lib/android-ndk-r10e:/usr/local/lib/android-ndk-r10e:/Applications/CocosCreator/Creator/1.9.3/CocosCreator.app/Contents/Resources/cocos2d-x/templates:/Applications/CocosCreator/Creator/1.9.3/CocosCreator.app/Contents/Resources/cocos2d-x:/Applications/CocosCreator/Creator/1.9.3/CocosCreator.app/Contents/Resources/cocos2d-x/tools/cocos2d-console/bin:/Users/hyhll/opt/anaconda3/bin:/usr/local/opt/openjdk/bin:/usr/local/bin:/usr/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/hyhll/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/hyhll/Documents/emsdk/upstream/emscripten:/Applications/CMake.app/Contents/bin:/Users/hyhll/.cargo/bin:/usr/local/mongodb-4.4.5/bin:/usr/local/lib/android/ndk-r10e
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.22.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/hyhll/Documents/huhu/testInstall/CITest/package.json: Unexpected token } in JSON at position 211
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "CITest",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:swpuhu/CITest.git",
+    "author": "huyunhe <huyunhe@huohua.cn>",
+    "license": "MIT",
+    "scripts": {
+      "test": 
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
