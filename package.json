@@ -6,7 +6,7 @@
   "author": "huyunhe <huyunhe@huohua.cn>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha test/**/**.test.ts",
+    "test": "mocha test/**/**.test.js",
     "cover": "nyc --reporter=html yarn run test"
   },
   "devDependencies": {
